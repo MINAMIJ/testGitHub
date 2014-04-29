@@ -9,7 +9,7 @@ public class TestGitHub extends PApplet {
 	
 	public void setup() {
 		mc = new myClass(this);
-		step = 1;
+		step = 2;
 	}
 
 	public void draw() {
