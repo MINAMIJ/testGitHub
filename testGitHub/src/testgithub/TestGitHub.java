@@ -5,9 +5,11 @@ import processing.core.PApplet;
 
 public class TestGitHub extends PApplet {
 	myClass mc;
+	int step;
 	
 	public void setup() {
 		mc = new myClass(this);
+		step = 1;
 	}
 
 	public void draw() {
